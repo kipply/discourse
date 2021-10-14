@@ -117,7 +117,7 @@ tbody {
   .d-icon {
     color: $primary;
   };
-  background-color: $#{50};
+  background-color: $tertiary#{50};
   &:not(.read):hover {
     background-color: $tertiary#{50};
   }
