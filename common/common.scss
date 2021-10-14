@@ -11,6 +11,10 @@
 
 a {
   color: $quaternary;
+   &:visited {
+    color: $tertiary;
+    text-decoration-color: $tertiary;
+  }
 }
 
 html {
@@ -69,6 +73,10 @@ tbody {
       color: $tertiary;
       text-decoration-color: $tertiary;
     }
+    &:visited {
+      color: $tertiary;
+      text-decoration-color: $tertiary;
+    }
   }
   .badge-wrapper.bullet span.badge-category {
     color: $primary;
@@ -94,6 +102,10 @@ tbody {
       text-decoration-color: $tertiary;
       background-color: transparent;
       }
+      &:visited {
+        color: $tertiary;
+        text-decoration-color: $tertiary;
+      }
     }
     .user .d-icon, .glyphs .d-icon {
       color: $primary;
@@ -105,7 +117,8 @@ tbody {
   .d-icon {
     color: $primary;
   };
-  background-color: $tertiary#{50};
+  background-color: $
+    #{50};
   &:not(.read):hover {
     background-color: $tertiary#{50};
   }
@@ -324,3 +337,11 @@ img.avatar {
 .badge-category-bg {
   background-color: $love; 
 }
+
+.btn-primary{
+  background: $primary; 
+  &:hover {
+    color: $primary#{90};
+  }
+}
+
